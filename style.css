@@ -1,0 +1,347 @@
+@import url("fonts.googleapis.com/css2?family-Chilanka&family-Sansita+Swashed&display-swap"); 
+body{
+font-family: 'Helvetica, Arial, sans-serif';
+padding: 0;
+margin: 0;
+}
+.main-header h1{
+    font-family: 'Helvetica, Arial, sans-serif';
+    color:black;
+    font-size: 90px;
+    margin: 0;
+    padding: 14px;
+    cursor: pointer;
+}
+.main-header {
+    background: url("ppp.jpeg") center no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height:100vh;
+}
+.main-header h2{
+    text-align: center;
+    position: relative;
+    top: 30%;
+    color:black;
+    cursor: pointer;
+}
+.main-header h2 span {  
+    padding: 10px;
+    background-color: rgb(152, 205, 226);
+    opacity: .7;
+    
+}
+
+.header{
+    font-family: 'Helvetica, Arial, sans-serif';
+    display: flex;
+    justify-content: space-around;
+}
+.navigation ul{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.navigation ul li{
+    list-style: none;
+    margin-left: 20px;
+    padding: 10px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    font-family: 'Helvetica, Arial, sans-serif';
+    font-size: 20px;
+    color: black;
+}
+.navigation ul li:hover{
+    background-color: white;
+    padding: 10px;
+
+}
+/*end of navigation here*/
+
+/*start here services*/
+
+h2{
+    text-align: center;
+}
+.service .main-service{
+    display: flex;
+    justify-content: center;
+}
+   
+.service .service-box{
+        background-color: #ccc;
+        margin-top: 8px;
+        text-align: center;
+        width: 200px;
+        padding: 30px 10px 0;
+   
+}
+.service .gallery .img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px 0;
+}
+.service .gallery .img img{
+    width: 100%;
+    height: 200px;
+}
+@media(max-width : 600px){
+    .service .gallery .img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .service .gallery .img img{
+        height: 200px;
+    }
+}
+/*end here services*/
+
+/* start here register form */ 
+.form{
+    padding: 0 16rem 4rem; 
+    margin: auto;  
+}   
+@media (max-width: 600px){
+    .form{
+        padding: 0 4rem;
+    }
+}
+input{
+    display: block;
+    width: 400px;
+}
+.form button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: .7rem 1rem;
+    outline: none;
+}
+.form button:hover{
+    background-color: skyblue;
+    color: blue;
+}
+/* end here the register form */
+
+/*START HERE GET IN TOUCH PART*/
+.touch{
+    background-color: #eee;
+    padding-top: 10px;
+}
+.break{
+    display: grid;
+    grid-template-columns: 3,1fr;
+    padding: 0 80px ;
+    text-align: center;
+}
+@media(max-width:600px){
+    .break{
+        display: grid;
+        grid-template-columns: 3,1fr;
+        text-align: center;
+    }
+
+}
+.touch .footer{
+    background-color: green;
+    text-align: center;
+    padding: 1px 0px;
+    color: white;
+}
+
+
+
+.top-left {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+
+    font-size: 40px;
+  }
+
+.centered {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+  }
+  .centered span{
+      background-color: rgb(156, 186, 241);
+      font-size: 2vw;
+      opacity: .7;
+  }
+
+  .side span {
+    position: absolute;
+    top: 200px;
+    left: 16px;
+    padding: 10px;
+    background-color: rgb(216, 204, 189);
+    opacity: .6;
+    font-size: 30px;
+  }
+
+ 
+
+  .contact{
+      margin: 0;
+      padding: 0;
+      font-family: "montserrat",sans-serif;
+
+  }
+  .contact-section{
+      background: url(h.jpeg) no-repeat ;
+      background-size: cover;
+      padding: 40px 0;
+  }
+
+  .contact-section h1{
+      text-align: center;
+      color: black;
+      font-size: 50px;
+  }
+  .border{
+      width: 100px;
+      height: 10px;
+      background: #34495e;
+      margin: 40px auto;
+  }
+
+  .contact-form{
+      max-width: 600px;
+      margin: auto;
+      padding: 0 10px;
+      overflow: hidden;
+
+
+  }
+
+  .contact-form-text{
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      margin: 16px 0;
+      border: 0;
+      background: rgb(236, 234, 230);
+      padding: 20px 40px;
+      outline: none;
+      color: #ddd;
+      transition: 0.5s ;
+
+
+
+  }
+
+  .contact-form-text:focus{
+      box-shadow:0 0 10px 4px  #34495e ;
+  }
+
+  textarea.contact-form-text{
+      resize: none;
+      height: 129px;
+  }
+
+  .contact-form-btn{
+      float: right;
+      border: 0;
+      background:  #34495e;
+      color: #fff;
+      padding: 12px 50px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: 0.5s;
+  }
+
+  .contact-form-btn:hover{
+      background: #2980b9;
+  }
+
+
+
+
+  
+.banner{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner-img.jpeg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 420px 420px;
+}
+.card-img{
+    background: url("f.jpeg") center/cover no-repeat;
+}
+.banner h2{
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+.card-content{
+    background: #fff;
+    height: 330px;
+}
+.card-content h3{
+    text-align: center;
+    color: #000;
+    padding: 25px 0 10px 0;
+    font-size: 26px;
+    font-weight: 500;
+}
+.form-row{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-weight: 300;
+}
+form input[type = text], form input[type = number], form input::placeholder, select{
+    color: #9a9a9a;
+}
+form input[type = submit]{
+    color: #fff;
+    background: #f2745f;
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form input[type = submit]:hover{
+    opacity: 0.9;
+}
+@media(max-width: 992px){
+    .card-container{
+        grid-template-columns: 100%;
+        width: 100vw;
+    }
+    .card-img{
+        height: 330px;
+    }
+}
+
+
+#myVideo{
+    height: 950px!important;
+    width: 900px;
+}
+#myVideo{
+    position: fixed;
+    max-height: 1000px!important;
+    min-width: 100%;
+}
