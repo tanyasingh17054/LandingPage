@@ -13,7 +13,7 @@ margin: 0;
     cursor: pointer;
 }
 .main-header {
-    background: url("ppp.jpeg") center no-repeat;
+    background: url("https://raw.githubusercontent.com/tanyasingh17054/proj/main/images/ppp.jpeg") center no-repeat;
     background-size: cover;
     background-position: fixed;
     height:100vh;
@@ -193,7 +193,7 @@ input{
 
   }
   .contact-section{
-      background: url(h.jpeg) no-repeat ;
+      background: url(https://raw.githubusercontent.com/tanyasingh17054/proj/main/images/h.jpeg) no-repeat ;
       background-size: cover;
       padding: 40px 0;
   }
@@ -265,7 +265,7 @@ input{
   
 .banner{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner-img.jpeg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/tanyasingh17054/proj/main/images/banner-img.jpeg") center/cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -278,7 +278,7 @@ input{
     grid-template-columns: 420px 420px;
 }
 .card-img{
-    background: url("f.jpeg") center/cover no-repeat;
+    background: url("https://raw.githubusercontent.com/tanyasingh17054/proj/main/images/f.jpeg") center/cover no-repeat;
 }
 .banner h2{
     padding-bottom: 40px;
@@ -337,11 +337,11 @@ form input[type = submit]:hover{
 
 
 #myVideo{
-    height: 950px!important;
+    height: 950px;
     width: 900px;
 }
 #myVideo{
     position: fixed;
-    max-height: 1000px!important;
+    max-height: 1000px;
     min-width: 100%;
 }
